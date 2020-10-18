@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arbitrage OPS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+	<script type="text/javascript" src="scripts/spinner.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+</head>
+
+<body id="homepage">
+
+<div id="load"></div>	
+<div id="main-content">
+	<header>
+		<div id="top-header">
+			<div id="top-logo">
+				<a href="#"><img src="assets/img/logo.svg" alt="Logo"></a>
+			</div>
+			<nav id="main-menu" class="hide-on-mobile">
+				<div><a href="#about">About</a></div>
+				<div><a href="#success">Success</a></div>
+				<div><a href="#testimonials">Testimonials</a></div>
+				<div><a href="#contact">Contact</a></div>
+				<div id="dashboard-button" class="orange-cta-button"><a href="https://arbitrageops.com/subscribe">Dashboard</a></div>
+			</nav>
+
+			<nav id="main-menu-burger" class="hide-on-desktop">
+				<div id="menu-items-burger" class="radial-orange-bg">
+					<a href="#about">About</a>
+					<a href="#success">Success</a>
+					<a href="#testimonials">Testimonials</a>
+					<a href="#contact">Contact</a>
+					<a href="https://arbitrageops.com/subscribe">Dashboard</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="triggerMenu ();">
+					<i class="fa fa-bars"></i>
+				</a>
+			</nav>
+		</div>
+
+		<section id="about">
+			<div id="about-intro" class="watched">
+				<img id="intro-logo" class="hide-on-mobile" src="assets/img/logo.svg" alt="Logo">
+				<div id="intro-title" class="font-size-2em">Focused on <br class="hide-on-desktop"><strong>launching <br class="hide-on-mobile">and scaling</strong> your Amazon store.</div>
+				<div id="intro-desc">An exclusive community that teaches you the ins and outs of running a profitable Amazon store. Join today and see for yourself why we’re trusted by hundreds of entrepreneurs worldwide.</div>
+				<div class="inline-children margin-top-1em center-align-flex-children">
+					<button class="orange-cta-button ">$50/month</button>
+					<div id="more-info-about"><a href="#offer"><img src="assets/img/arrow-icon.svg" alt="Arrow" class="open-greater-than">More information</a></div>
+				</div>
+
+			</div>
+			<div id="boxes-overflow-container" class="watched">
+				<img class="boxes-img-overflow max-width-100" src="assets/img/boxes.svg" alt="Boxes">
+			</div>
+		</section>
+
+	</header>
+
+	<section id="offer" class="watched">
+		<div>
+			<div class="small-pre-title">Features to help you succeed.</div>
+			<h2>What we offer.</h2>
+		</div>
+
+		<div class="offer-items">
+			<div>
+				<div class="inline-children">
+					<img src="assets/img/icons/crash-course-icon.svg" alt="Offer icon">
+					<h3>Crash Course</h3>
+				</div>
+				<div>
+					Gain an immediate advantage with our professionally developed, one-month course. We’ll show you how to set up and scale your store, source and ship product, what software and shipping materials you need, and teach you all of the ins and outs of selling on Amazon.
+				</div>
+			</div>
+			<div>
+				<div class="inline-children">
+					<img src="assets/img/icons/store-strategies-icon.svg" alt="Offer icon">
+					<h3>Store Strategies</h3>
+				</div>
+				<div>
+					You'll be using our highly detailed information regarding how big box 
+					stores function and how to best utilize them for the most gain. Store 
+					breakdowns include pricing, clearance schedules, cash back rewards, 
+					couponing, employee hacks, and much more.
+				</div>
+			</div>
+			<div>
+				<div class="inline-children">
+					<img src="assets/img/icons/flips-icon.svg" alt="Offer icon">
+					<h3>Flips</h3>
+				</div>
+				<div>
+					No more wasting your time searching stores and online catalogues for 
+					flips. We provide high quality, profitable flips on a daily basis. Members 
+					are also encouraged and incentivized to share flips with the group. 
+					There is never a shortage of opportunity in ArbitrageOps.
+				</div>
+			</div>
+			<div>
+				<div class="inline-children">
+					<img src="assets/img/icons/server-resources-icon.svg" alt="Offer icon">
+					<h3>Server Resources</h3>
+				</div>
+				<div>
+					A variety of bots are made available to help you throughout your 
+					journey. These include bots to help you source and secure even the 
+					most limited of products. These will help to remove research time 
+					entirely and to maximize the time-to-profit ratio.
+				</div>
+			</div>
+			<div>
+				<div class="inline-children">
+					<img src="assets/img/icons/staff-support-icon.svg" alt="Offer icon">
+					<h3>Staff Support</h3>
+				</div>
+				<div>
+					With our A-1 support team, you can be sure that no question will remain 
+					unanswered. With 40+ pages of our experience-based knowledge at 
+					your fingertips, you’re already winning! And our professional staff is on 
+					standby to help ensure the health and success of your store.
+				</div>
+			</div>
+			<div>
+				<div class="inline-children">
+					<img src="assets/img/icons/money-back-guarantee-icon.svg" alt="Offer icon">
+					<h3>Money Back Guarantee</h3>
+				</div>
+				<div>
+					Joining ArbitrageOps is an investment in the growth of your company. 
+					We’re confident that you will be satisfied with our service. If you do not 
+					recoup the group fee within the first month, we will give you a full 
+					refund.
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="success">
+		<div class="small-pre-title">Boost your brand on the platform.</div>
+		<h2>We bring you success.</h2>
+
+		<div id="success-info-container">
+			<div>
+				<div id="success-intro">
+					Using our handcrafted guides and various server resources, your success will be unmatched. We’ve helped our members, most with no prior e-commerce experience, to generate millions in sales — and we want to do the same for you!
+				</div>
+				<div id="success-stats-squares-container" class="watched">
+					<div class="success-stat-container radial-orange-bg">
+						<div class="stat-number">$<span class="stat-value">7</span>M+</div>
+						<div class="stat-desc">in Member Revenue</div>
+					</div>
+					<div class="success-stat-container radial-orange-bg">
+						<div class="stat-number">$<span class="stat-value">3</span>M+</div>
+						<div class="stat-desc">in Member Profit</div>
+					</div>
+					<div class="success-stat-container radial-orange-bg">
+						<div class="stat-number"><span class="stat-value">99</span>%</div>
+						<div class="stat-desc">Member Satisfaction</div>
+					</div>
+					<div class="success-stat-container radial-orange-bg">
+						<div class="stat-number"><span class="stat-value">92</span>%</div>
+						<div class="stat-desc">Made $1K+ in 30 Days</div>
+					</div>
+				</div>
+			</div>
+			<div id="success-img-container" class="watched">
+				<img class="mirror-image" src="assets/img/success-screens.svg">
+			</div>
+		</div>
+	</section>
+
+	<section id="testimonials" class="watched">
+		<div class="small-pre-title">Testimonials from our userbase.</div>
+		<h2>What our clients say.</h2>
+
+		<div id="testimonials-container">
+
+			<div class="testimonial-container">
+				<img class="testimonial-img" src="assets/img/testimonials/deej.svg" alt="Testimonial avatar">
+				<p class="testimonial-review">My first month I did over $15k with crazy profit margins and I'll do well over that this month. The longer I'm here the better the content gets. When I started I thought this would be a fun side hobby to make some $ but you guys are changing my life.</p>
+				<div class="testimonial-line-separator"></div>
+				<div class="testimonial-name">Deej</div>
+				<div class="testimonial-small-label">Deej#0001</div>
+			</div>
+
+			<div class="testimonial-container">
+				<img class="testimonial-img" src="assets/img/testimonials/andampersand.svg" alt="Testimonial avatar">
+				<p class="testimonial-review">I'm on my way to $50K in 2 months holding steady at ~40% profit margin. I think in 1-2 months I'll be looking to hire buyers to help on Amazon; I keep packing my Crosstrek to the limit with buys. I'm creeping on Sprinter vans on Craigslist. Feels good man.</p>
+				<div class="testimonial-line-separator"></div>
+				<div class="testimonial-name">Andampersand</div>
+				<div class="testimonial-small-label">Andampersand#0001</div>
+			</div>
+
+			<div class="testimonial-container">
+				<img class="testimonial-img" src="assets/img/testimonials/smashnstats.svg" alt="Testimonial avatar">
+				<p class="testimonial-review">I joined the discord in early May. I found a profitable item posted by the admin team, and in less then a month, I have accumulated over $200k in sales. None of which would have been possible without the Discord and the support along the way.</p>
+				<div class="testimonial-line-separator"></div>
+				<div class="testimonial-name">Smashnstats</div>
+				<div class="testimonial-small-label">Smashnstats#0001</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="small-pre-title">Fill the form and get in touch</div>
+		<h2>Want to know more?</h2>
+
+		<div id="contact-form-container">
+			<form id="contact-form" class="watched" action="#" method="GET">
+				<div class="inline-children">
+					<input type="text" id="contact_first_name" name="first_name" placeholder="First Name" required>
+					<input type="text" id="contact_last_name" name="last_name" placeholder="Last Name" required>
+				</div>
+				<input type="email" id="contact_email" name="email" placeholder="Email Address" required>
+				<textarea rows="4" id="contact_message" name="message" placeholder="Message" required></textarea>
+				<div id="submit-container" class="inline-children">
+					<input id="submit-contact-form" class="orange-cta-button" type="submit" name="" value="Send Message">
+					<div class="center-align-flex-children">
+							<img src="assets/img/arrow-icon.svg" alt="Arrow" class="open-greater-than">
+							<span>We aim to respond within 24 hours.</span>
+					</div>
+				</div>
+			</form>
+
+			<div id="contact-info-box" class="watched">
+				<div>
+					<div class="pseudo-h3-title">We get it. You're a fan!</div>
+					<div class="small-pre-title">Follow us on our social media for more content.</div>
+				</div>
+
+				<div>
+					<div class="social-media-item inline-children">
+						<img src="assets/img/icons/twitter-icon.svg" alt="Twitter icon"><a href="https://twitter.com/arbitrageops"><span>ArbitrageOps</span></a>
+					</div>
+					<div class="social-media-item inline-children">
+						<img src="assets/img/icons/instagram-icon.svg" alt="Instagram icon"><a href="https://instagram.com/arbitrageops"><span>ArbitrageOps</span></a>
+					</div>
+					<div class="social-media-item inline-children">
+						<img src="assets/img/icons/email-icon.svg" alt="Email icon"><a href="mailto:info@arbitrageops.com"><span>info@arbitrageops.com</span></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="gradient-bg-color">
+		<div id="superior-footer-container">
+			<div id="superior-footer">
+				<div class="footer-column">
+					<img src="assets/img/white-logo.svg" alt="White logo">
+					<p>Focused on <strong>launching and scaling</strong> your Amazon store.</p>
+					<p>An exclusive community that teaches you the ins and outs of running a profitable Amazon store. Join today and see for yourself why we’re trusted by hundreds of entrepreneurs worldwide.</p>
+				</div>
+				<nav class="footer-column">
+					<div class="footer-nav-title">Navigation menu</div>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#success">Success</a></li>
+					</ul>
+					<ul class="footer-nav-menu-second-column">
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="affiliates.html">Affiliates</a></li>
+					</ul>
+				</nav>
+				<nav class="footer-column">
+					<div class="footer-nav-title">Legal terms</div>
+					<ul>
+						<li><a href="/legal-terms.html#privacy-policy">Privacy Policy</a></li>
+						<li><a href="/legal-terms.html#terms-and-conditions">Terms & Conditions</a></li>
+						<li><a href="/legal-terms.html#refund-policy">Refund Policy</a></li>
+					</ul>
+				</nav>
+				<div id="footer-social-media" class="footer-column">
+					<div class="footer-nav-title">Connect</div>
+					<div class="inline-children">
+						<img src="assets/img/icons/twitter-icon.svg" alt="Twitter icon"><span><a href="https://twitter.com/arbitrageops">ArbitrageOps</a></span>
+					</div>
+					<div class="inline-children">
+						<img src="assets/img/icons/instagram-icon.svg" alt="Instagram icon"><span><a href="https://instagram.com/arbitrageops">ArbitrageOps</a></span>
+					</div>
+					<div class="inline-children">
+						<img src="assets/img/icons/email-icon.svg" alt="Email icon"><span><a href="mailto:info@arbitrageops.com">info@arbitrageops.com</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="inferior-footer-container">
+			<div id="inferior-footer">
+				<div>Copyright ArbitrageOps LLC © 2020</div>
+				<div>Support: +1 (786) 453-9452</div>
+				<div>Designed with love by <a href="http://www.cillysen.com/">Cillysen</a></div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
