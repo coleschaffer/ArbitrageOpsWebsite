@@ -947,6 +947,7 @@ footer a {
 
 #inferior-footer {
 	display: flex;
+	align-items: center;
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -1070,12 +1071,17 @@ nav.footer-column ul {
 	#inferior-footer {
 		font-size:7px;
     	flex-wrap: wrap;
-    	flex: 1 0 28%%;
+    	flex: 1 0 28%;
     	font-size:6px;
 		padding-top: 15px;
 		padding-bottom: 0px;
 		margin-bottom: -10px;
     	justify-content: space-between;
+	}
+
+	#web-designer-name-footer {
+		flex-grow: 1;
+		text-align: center;
 	}
 }
 

@@ -92,7 +92,7 @@ function sendEmailToUser (e)
 	const email = document.getElementById ('contact_email').value;
 	const subject = "Message from " + first_name + " " + last_name;
 	const message_body = document.getElementById ('contact_message').value;
-	const message = "-- Received from " + email + " --\n\n";
+	const message = "-- Received from " + email + " --\n\n" + message_body;
 
 	Email.send({
 	    SecureToken : "3c40c39a-c00c-4db5-9363-224abeae994a",
