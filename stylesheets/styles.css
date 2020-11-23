@@ -255,8 +255,11 @@ button:hover, .orange-cta-button:hover {
 	background-repeat:no-repeat;
 }
 
-.radial-blue-bg {
-	
+.cropped{
+	width: 210px; /* width of container */
+    height: 180px; /* height of container */
+    object-fit: cover;
+    
 }
 
 @media (max-width:990px) {
