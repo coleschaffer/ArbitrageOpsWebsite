@@ -85,6 +85,7 @@
 :root {
 	--main-brand-black-color: #101010;
 	--orange-brand-gradient: linear-gradient(to right, #ffad2d 0%, #ff7e30 100%);
+	--blue-brand-gradient: linear-gradient(to right, #00b1cc 0%, #008296 100%);
 	--secondary-grey-color: #1e1e1e;
 	--burger-menu-bg-color: #ff822f;
 }
@@ -194,6 +195,10 @@ button:hover, .orange-cta-button:hover {
 	background-image: var(--orange-brand-gradient);
 }
 
+.blue-gradient-bg-color {
+	background-image: var(--blue-brand-gradient);
+}
+
 .orange-cta-button {
 	color: #ffffff;
 	border:0px solid transparent;
@@ -208,6 +213,22 @@ button:hover, .orange-cta-button:hover {
 	border-radius: 3px;
 	height:35px;
 }
+
+.blue-cta-button {
+	color: #ffffff;
+	border:0px solid transparent;
+	background-image: var(--blue-brand-gradient);
+	display: flex;
+	font-size:13px;
+	font-weight:600;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 3px;
+	height:35px;
+}
+
 
 .margin-top-1em {
 	margin-top:1em;
@@ -232,6 +253,13 @@ button:hover, .orange-cta-button:hover {
 	background-image: url('../assets/img/radial-orange-bg.svg');
 	background-size:cover;
 	background-repeat:no-repeat;
+}
+
+.cropped{
+	width: 210px; /* width of container */
+    height: 180px; /* height of container */
+    object-fit: cover;
+    
 }
 
 @media (max-width:990px) {
@@ -1015,10 +1043,12 @@ nav.footer-column ul {
 @media (max-width:990px) {
 	footer {
 		padding:25px;
-		background-image: url('../assets/img/radial-orange-bg.svg') !important;
+		background-image: url('../assets/img/radial-orange-bg.svg') ;
 		background-size:cover;
 		background-repeat:no-repeat;
 	}
+
+	
 
 	#superior-footer {
     	align-items: baseline;
@@ -1092,7 +1122,7 @@ nav.footer-column ul {
 
 
 /*=================================*/
-/*=========== AFFILIATES ==========*/
+/*=========== AFFILIATES & A2A ==========*/
 
 #equipment > p {
     max-width: 730px;
@@ -1100,6 +1130,20 @@ nav.footer-column ul {
 
 .product-label {
 	background-image:  linear-gradient(180deg, #ffad2d 0%, #ff7e30 100%); /*#ff822f;*/
+	margin-top: -7px;
+    text-align: center;
+    line-height: 1.35em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 79px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.a2a-label {
+	background-image:  linear-gradient(180deg, #00b1cc 0%, #008296 100%); /*#ff822f;*/
 	margin-top: -7px;
     text-align: center;
     line-height: 1.35em;
