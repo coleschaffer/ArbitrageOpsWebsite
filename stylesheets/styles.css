@@ -1174,6 +1174,18 @@ a.product-container {
     border-radius: 3px;
 }
 
+a.product-container:nth-child(3){
+	/* box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue; */
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(241,196,15,0.75);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(241,196,15,0.75);
+	box-shadow: 0px 0px 5px 5px rgba(241,196,15,0.75);
+	text-decoration: none;
+	color:inherit;
+	margin-top:40px;
+    max-width: 210px;
+    border-radius: 3px;
+}
+
 .product-container img {
 	width:100%;
 }
