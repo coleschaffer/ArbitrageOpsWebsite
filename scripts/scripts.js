@@ -3,23 +3,18 @@
 function triggerMenu () 
 {
     var menu_items = document.getElementById ("menu-items-burger");
-   /**  if (menu_items.style.opacity == 1)
+  if (menu_items.style.opacity == 1)
     {
         menu_items.style.transition = "opacity 0.6s";
 		menu_items.style.opacity = 0;
-	} else {
-        menu_items.style.transition = "opacity 0.6s";
-		menu_items.style.opacity = 1;
-    }**/
-
-	if (menu_items.style.display !== "none")
-    {
-        menu_items.style.transition = "opacity 0.6s";
 		menu_items.style.display = "none";
 	} else {
         menu_items.style.transition = "opacity 0.6s";
+		menu_items.style.opacity = 1;
 		menu_items.style.display = "block";
-    }
+    } 
+
+	
 }
 
 

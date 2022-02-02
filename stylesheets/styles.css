@@ -438,9 +438,10 @@ header.expand-vertically {
 
 	#menu-items-burger {
     	margin-top: 47px;
-    	display: block !important;
+    	/**display: block !important;**/
+		display: block;
     	opacity: 0;
-    	z-index: 0;
+    	z-index: 99;
 	}
 
 	#main-menu-burger #menu-items-burger {
