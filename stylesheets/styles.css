@@ -440,7 +440,7 @@ header.expand-vertically {
     	margin-top: 47px;
     	display: block !important;
     	opacity: 0;
-    	z-index: 99;
+    	z-index: 0;
 	}
 
 	#main-menu-burger #menu-items-burger {
