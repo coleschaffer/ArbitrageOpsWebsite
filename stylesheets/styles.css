@@ -534,9 +534,9 @@ header.expand-vertically {
 
 @media (min-width:991px) {
 	#about {
-		margin-top:200px;
-		padding-bottom:200px;
-		margin-bottom:100px;
+		margin-top:175px;
+		padding-bottom:100px;
+		margin-bottom:50px;
 	}
 
 	#intro-title {
@@ -604,6 +604,43 @@ header.expand-vertically {
 	}
 
 }
+/************/
+/** YoutubeVid **/
+#youtubevid {
+	display:flex;
+	flex-wrap: wrap;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+}
+@media (min-width:991px) {
+}
+@media (max-width:990px) {
+	#youtubevid{
+	font-size: 14px;
+	}
+}
+.embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /***********/
 /** Offer **/
