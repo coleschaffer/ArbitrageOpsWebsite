@@ -650,7 +650,7 @@ header.expand-vertically {
 }
 
 @media (min-width:991px) {
-
+/**
 	.offer-items {
 		display: flex;
 		flex-wrap: wrap;
@@ -663,6 +663,21 @@ header.expand-vertically {
 
 	.offer-items > div:nth-child(2n) {
 		margin-left:8%;
+	}
+}
+**/
+	.offer-items {
+		display: flex;
+		flex-wrap: wrap;
+    	align-items: top;
+    	justify-content: center;
+		text-align: left;
+	}
+	.offer-items > div{
+		flex: 1 1 25%; /*grow | shrink | basis */
+		margin-top: 30px;
+		margin-right: 22px;
+		
 	}
 }
 
